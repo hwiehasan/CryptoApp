@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    tools:context=".ShowKalaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="100dp"
+            >
+
+            <ImageView
+                android:id="@+id/bigImage"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@mipmap/bitcoinbigimage"
+                android:scaleType="fitXY"
+
+                />
+
+
+            <TextView
+                android:id="@+id/imagePriceTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price in Us dollar:"
+                android:textColor="#fff"
+                android:background="#B20E0E0E"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/imagePrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:background="#B20E0E0E"
+                android:textSize="18sp"
+                />
+
+
+            <TextView
+                android:id="@+id/imageDateTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date:"
+                android:textColor="#fff"
+                android:background="#B20E0E0E"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/imageDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date:"
+                android:textColor="#fff"
+                android:background="#B20E0E0E"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                />
+
+
+
+            <TextView
+                android:id="@+id/imageViewTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Views:"
+                android:layout_below="@+id/imageDate"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:background="#B20E0E0E"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Views:"
+                android:layout_below="@+id/imageDate"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:background="#B20E0E0E"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+
+
+            <TextView
+                android:id="@+id/imageDescriptionTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description:"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:background="#B20E0E0E"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/imageDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Describ...."
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:background="#B20E0E0E"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:onClick="deleteKala"
+                android:gravity="center"
+                android:layout_marginLeft="170dp"
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:onClick="editKala"
+                android:gravity="center"
+                android:layout_marginLeft="170dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</RelativeLayout>

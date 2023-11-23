@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--برای اسکرول کردن در صفحه این کد رو اضافه کردم-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    tools:context=".AddNewKalaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginVertical="150dp"
+        android:gravity="center">
+
+
+        <!-- لایه اول امنیت در xml پیاده سازی میکنیم -->
+        <EditText
+            android:id="@+id/knameEdt"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="Product name"
+            android:layout_marginBottom="20dp"
+            android:digits="qwertyuiopasdfghjklzxcvbnm0123456789"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/kpriceEdt"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="Product price"
+            android:layout_marginBottom="20dp"
+            android:digits="0123456789"
+            />
+
+        <EditText
+            android:id="@+id/kcatidEdt"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="Product Category"
+            android:layout_marginBottom="20dp"
+            android:digits="0123456789"
+            />
+
+        <EditText
+            android:id="@+id/kimageEdt"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="Product image"
+            android:layout_marginBottom="20dp"
+            />
+
+
+        <EditText
+            android:id="@+id/kdescriptionEdt"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="Product description"
+            android:inputType="textMultiLine"
+
+            />
+
+
+
+        <TextView
+            android:id="@+id/invalidRegisterTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Error while reistering"
+            android:layout_margin="20dp"
+            android:textColor="#f00"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/addKalaBtn"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Register"
+            android:onClick="doAddKala"
+            android:background="#00f"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

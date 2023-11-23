@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuToolsBtn"
+        android:title="Tools" />
+    <item
+        android:id="@+id/menuProfileBtn"
+        android:title="My Profile" />
+    <item
+        android:id="@+id/menuLogoutApp"
+        android:title="Logout" />
+    <item
+        android:id="@+id/menuAboutUs"
+        android:title="About us" />
+    <item
+        android:id="@+id/menuContactWithUs"
+        android:title="Contact with us" />
+</menu>

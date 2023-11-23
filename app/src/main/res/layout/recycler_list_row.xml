@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+    <!--یک ردیف از کالا-->
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/recyclerListCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="25dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/recyclerListImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/bitcoinrecyclerlistimage"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/recyclerListName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:background="#B20E0E0E"
+        android:layout_marginLeft="5dp"
+        />
+
+        <TextView
+            android:id="@+id/recyclerListPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$12"
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:background="#B20E0E0E"
+            android:layout_marginLeft="340dp"
+            />
+    <TextView
+        android:id="@+id/recyclerListSubmitDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="#fff"
+        android:text="2023-2-12"
+        android:background="#B20E0E0E"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="5dp"
+        />
+
+        <TextView
+            android:id="@+id/recyclerListDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product info....."
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:background="#B20E0E0E"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="170dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

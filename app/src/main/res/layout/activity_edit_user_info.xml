@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backg"
+    tools:context=".EditUserInfoActivity">
+
+
+    <EditText
+        android:id="@+id/passwordEdt"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="Enter New Password"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/repasswordEdt"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="Enter Repassword"
+        />
+    <Button
+        android:id="@+id/changePasswordBtn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Change"
+        android:onClick="doChangePassword"
+        android:background="#00f"
+        />
+
+
+</LinearLayout>
