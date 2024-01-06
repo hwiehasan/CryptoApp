@@ -5,7 +5,7 @@ Copy api folder and paste it into your www- folder (or htdocs folder).
 Import shopdb.sql which is in api folder into your MySql database.
 Open Globals.class and change the value of Server = "" . (The IP Address depends on your Android Emulator)
 
-#The goals of this project were to achieve the following:
+# The goals of this project were to achieve the following:
 1. Utilize the Volley library for network communication.
 2. Develop APIs using PHP.
 3. Implement data exchange using XML/JSON methods.
