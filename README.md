@@ -15,4 +15,5 @@ Open Globals.class and change the value of Server = "" . (The IP Address depends
 7. Receive Broadcasts from Android.
 8. Work with different kinds of services such as Background Services, Foreground Services, and Bound Services.
 9. Work with permissions in Android.
-10. Gain familiarity with the RecyclerView component.
+10. Work with SharedPreferences. 
+11. Gain familiarity with the RecyclerView component and Android Spinner.
