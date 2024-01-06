@@ -17,3 +17,10 @@ Open Globals.class and change the value of Server = "" . (The IP Address depends
 9. Work with permissions in Android.
 10. Work with SharedPreferences. 
 11. Gain familiarity with the RecyclerView component and Android Spinner.
+
+#Here are some pictures of app
+| Image 1                     | Image 2                     | Image 3                     |
+|-----------------------------|-----------------------------|-----------------------------|
+| ![Image 1](https://i.postimg.cc/90Bwfq2k/Picture1.png) | ![Image 2](https://i.postimg.cc/SNyzvV7b/Picture2.png) | ![Image 3](https://i.postimg.cc/y8x3Vdbf/Picture3.png) |
+| ![Image 4](https://i.postimg.cc/B69jcCQy/Picture4.png) | ![Image 5](https://i.postimg.cc/vm61VKMf/Picture6.png) | ![Image 6](https://i.postimg.cc/6pP2TKsB/Picture7.png) |
+
